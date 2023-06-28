@@ -16,3 +16,21 @@
 .swiper-button-next {
     display: none;
 }
+
+.spiper-pagination {
+    position: initial;
+    margin: .5em 0;
+}
+
+.card__descriçao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+
+
+
+
+
+
