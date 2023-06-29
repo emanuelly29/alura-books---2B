@@ -51,6 +51,7 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+    
     <section class="carrossel">
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
         <!-- Slider main container -->
@@ -74,27 +75,66 @@
         </div>
 
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-              spaceBetween: 10,
-              slidesPerView: 3,
-              pagination: {
-                    el: '.swiper-pagination',
-                    type: 'bullets',
-                },
-        });
-    </script>
 
 </body>
 
         <div class="card">
             <div class="card__descriçao">
                 <h3 class="descriçao__titulo">talvez voce tambem se interesse por...</h3>
-                <h2 class="descriçao__titulo-livro"> Angular 1 e Firebase</h2>
+                <h2 class="descriçao__titulo-livro"> Angular 11 e Firebase</h2>
                 <p class="descriçao__texto">Costruindo uma aplicaçao integrada com a plataforma do Google.</p>
             </div>
             <img src="img/Angular.png" class="descriçao__imagem">
+        </div>
+        <div class=" card__botões">
+            <ul class="botões">
+                <li class="botões__item"><img src="img/Favoritos.svg"></li>
+                <li class="botões__item"><img src="img/Compras.svg"></li>
+            </ul>
+            <a href="#" class="botões__ancora">Saiba mais</a>
+        </div>
+ 
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Mais vendidos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/ApacheKafka.png"></div>
+                <div class="swiper-slide"><img src="img/Liderança.png"></div>
+                <div class="swiper-slide"><img src="img/Javascript.png"></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end.png"></div>
+                <div class="swiper-slide"><img src="img/Portugol.png"></div>
+                <div class="swiper-slide"><img src="img/Acessibilidade.svg"></div>
+                ...
+            </div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            
+        </div>
+
+    </section>
+
+</body>
+
+        <div class="card">
+            <div class="card__descriçao">
+                <h3 class="descriçao__titulo">Altora do mês</h3>
+                <h2 class="descriçao__titulo-livro"> Juliana Agarikov</h2>
+                <p class="descriçao__texto">Analista de sistemas e escritora,Juliana é especialista em Front-End.</p>
+            </div>
+            <img src="img/Estrelinhas.png" class="descriçao__imagem">
+        </div>
+        <div class=" card__botões">
+            <ul class="botões">
+                <li class="botões__item"><img src="img/Favoritos.svg"></li>
+                <li class="botões__item"><img src="img/Compras.svg"></li>
+            </ul>
+            <a href="#" class="botões__ancora">Saiba mais</a>
         </div>
  
     </section>
@@ -111,6 +151,10 @@
     </script>
 
 </body>
+
+</html>
+</html>
+
 
 </html>
 </html>
